@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: gray;
+}
+
+.dropdown,
+.slider1,
+.slider2 {
+    width: 25%;
+    margin-right: 10px;
+}
+.black-slider .rc-slider-track {
+    background-color: black;
+    width: 50%;
+  }
+
+  .black-slider{
+    width: 25%;
+  }

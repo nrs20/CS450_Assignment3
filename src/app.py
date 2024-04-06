@@ -73,7 +73,7 @@ app.layout = html.Div([
             
             id='tweet_table',
                     columns=[{"name": i, "id": i} for i in df_empty.columns],
-         data=df_empty.to_dict('records')  # This will be an empty list
+         data=df_empty.to_dict('records')  # This will be an empty list so i can display an empty datatable initially
 ,
            style_data={
         'whiteSpace': 'normal',

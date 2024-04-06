@@ -23,6 +23,7 @@ df_empty = pd.DataFrame(columns=['RawTweet'])
 months = df['Month'].unique()
 
 app=dash.Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     html.Div([
